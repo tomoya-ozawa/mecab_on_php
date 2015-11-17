@@ -1,6 +1,7 @@
 <?php
 
-require_once('./mecab.php');
+require 'vendor/autoload.php';
+
 // mecabのパスを指定
 $mecab_path = '/usr/local/bin/mecab';
 // 解析対象の文章
