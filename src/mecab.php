@@ -15,7 +15,7 @@ class Mecab
     * コンストラクタ
     * @param $mecab_path[String] Mecabをインストールしているパス
     * @param $tmp_file[String] 解析対象の文字列を一時的に置くファイル
-    * @return[void]
+    * @return [void]
     */
     public function __construct($mecab_path, $tmp_file = './mecab_tmp.txt')
     {
