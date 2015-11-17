@@ -9,7 +9,6 @@
             "email": "t.ozawa1230@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2"
     },
