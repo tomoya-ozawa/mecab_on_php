@@ -3,6 +3,9 @@
 /*
 * Mecabをphp上から実行するためのクラス
 */
+
+namespace MecabOnPhp;
+
 class Mecab
 {
     private $mecab_path;
