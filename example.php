@@ -1,6 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
+use MecabOnPhp\mecab;
 
 // mecabのパスを指定
 $mecab_path = '/usr/local/bin/mecab';

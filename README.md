@@ -4,10 +4,17 @@
 
 形態素解析ソフト、MecabをPHP上で扱うためのクラス
 
+## Install
+
+composerでインストールする場合は、
+`composer require ozawa/mecab_on_php`
+
 ## Usage
+
 
 ```
 require 'vendor/autoload.php';
+use MecabOnPhp\mecab;
 
 // mecabのパスを指定
 $mecab_path = '/usr/local/bin/mecab';
